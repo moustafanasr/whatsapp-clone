@@ -1,0 +1,14 @@
+.home{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.inputs{
+  position: static;
+  top: 0px;
+  left: 0px;
+  min-height: 100vh;
+}

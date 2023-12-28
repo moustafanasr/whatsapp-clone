@@ -1,0 +1,36 @@
+.inputs{
+  background-color: antiquewhite   ;
+}
+.inputs form input[type="text"]{
+  /* margin: 0px 5px 5px auto; */
+  /* line-break: anywhere; */
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #101439;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  color: #ffffffb4;
+  min-height: 20rem;
+  margin-top: 5px;
+  border: none;
+}
+.inputs form input[type="text"]::placeholder{
+  font-size: 20px;
+}
+.inputs form input[type="submit"]{
+  color: #0C111F;
+  background-image: linear-gradient(to right, #F9EC7D, #F5B100);
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+
+}
